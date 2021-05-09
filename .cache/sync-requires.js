@@ -7,8 +7,7 @@ const preferDefault = m => (m && m.default) || m
 exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/nicholashart/Desktop/projects/gatsby_blog_test_01/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/nicholashart/Desktop/projects/gatsby_blog_test_01/src/pages/404.js"))),
-  "component---src-pages-index-js": hot(preferDefault(require("/Users/nicholashart/Desktop/projects/gatsby_blog_test_01/src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/Users/nicholashart/Desktop/projects/gatsby_blog_test_01/src/pages/page-2.js"))),
-  "component---src-pages-using-typescript-tsx": hot(preferDefault(require("/Users/nicholashart/Desktop/projects/gatsby_blog_test_01/src/pages/using-typescript.tsx")))
+  "component---src-templates-page-js": hot(preferDefault(require("/Users/nicholashart/Desktop/projects/gatsby_blog_test_01/src/templates/page.js"))),
+  "component---src-templates-post-js": hot(preferDefault(require("/Users/nicholashart/Desktop/projects/gatsby_blog_test_01/src/templates/post.js")))
 }
 

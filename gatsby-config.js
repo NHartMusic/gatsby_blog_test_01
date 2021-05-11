@@ -37,7 +37,7 @@ module.exports = {
         useACF: false,
         verboseOutput: false,
         perPage: 100,
-        concurrentRequests: 10,
+        concurrentRequests: 1,
         includedRoutes: [
           "**/categories",
           "**/posts",
@@ -46,7 +46,8 @@ module.exports = {
           "**/tags",
           "**/taxonomies",
           "**/users",
-          "**/menus"
+          "**/menus",
+          "**/portfolio"
         ],
       },
     },
